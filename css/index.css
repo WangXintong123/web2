@@ -1,0 +1,435 @@
+*{
+	padding:0;
+	margin:0;
+}
+ul,li,ol{
+	list-style: none
+}
+a{
+	text-decoration: none;
+}
+/*头部开始*/
+.header{
+	width:100%;
+	height: 173px;
+	background-color: #ededed;	
+}
+.logo{
+	height: 125px;
+	text-align: center;
+}
+.logo img{
+	margin-top: 30px;
+	margin-bottom: 3px;
+}
+.nav{
+	height:45px;
+	width:670px;
+	background-color: white;
+	margin:0 auto;
+	border-radius: 23px;
+}
+.nav li{
+	float: left;
+	height:45px;
+	background:url(../img/1-2.png) no-repeat right center;
+	padding:0 30px;
+	font-size: 14px;
+	line-height: 45px;
+}
+.nav li a{
+	display: block;
+	height: 42px;
+	font-size: 14px;
+	color: #333333;
+	}
+#have{
+	border-bottom:3px solid #1e50ae;
+	color: #1e50ae;
+}
+.nav li:last-child{
+	background: none;
+}
+/*banner开始*/
+.banner{
+	width:100%;
+	height:408px;
+	background:url(../img/1-3.png) no-repeat center center; 
+}
+/*banner结束*/
+/*服务开始*/
+.serve{
+	width:1200px;
+	height:810px;
+	margin:0 auto;
+}
+.fuwu{
+	width:100%;
+	height:190px;
+	text-align: center;
+}
+.fuwu1{
+	margin-top: 60px;
+	font-size: 34px;
+	margin-bottom: 20px;
+}
+.fuwu2{
+	margin-bottom: 60px;
+	font-size: 20px;
+}
+.yuan{
+	width: 1075px;
+	height: 620px;
+	margin: 0 auto;
+}
+.yuan1{
+	margin-right: 147px;
+	margin-bottom: 5px;
+	float: left;
+	height: 370px;
+	width: 150px;
+}
+.yuan2{
+	margin-left: 42px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+.yuan3 li{
+	margin-left: 35px;
+	list-style-image: url(../img/dian.png);
+	font-size: 14px;
+	color: #909090;
+	list-style-position: inside;
+	margin-bottom: 10px;
+}
+.yuan4{
+	margin-bottom: 5px;
+	float: left;
+	height: 370px;
+	width: 150px;
+}
+.yuan5 li{
+	margin-left: 35px;
+	list-style-image: url(../img/dian.png);
+	font-size: 14px;
+	color: #bcc5e1;
+	list-style-position: inside;
+	margin-bottom: 10px;
+}
+.yuan6{
+	margin-left: 20px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+/*服务结束*/
+/*解决方案开始*/
+.beijing{
+	height:715px;
+	width: 100%;
+	background: url(../img/beijing.png) no-repeat center center;
+
+}
+.jiejue{
+	width:147px;
+	height:78px;
+	margin:65px 705px 70px 705px;
+	text-align: center;
+}
+.jiejue1{
+	margin-top:30px;
+	font-size:34px;
+	margin-bottom:20px;
+	color: white;
+
+}
+.jiejue2{
+
+	font-size:20px;
+	color:white;	
+}
+.book{
+	width:1200px;
+	height: 300px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 130px;
+
+}
+.left{
+	position:absolute;
+	left:0;
+	top:130px;
+}
+.right{
+	position:absolute;
+	right:0;
+	top:130px;
+}
+.img1{
+	margin-left: 60px;
+	float:left;
+}
+.img2{
+	margin-left: 50px;
+	float:left;
+}
+.more1{
+	height:200px;
+	width: 100%;
+}
+.more{
+	margin-top: 80px;
+	margin-bottom: 60px;
+	margin-left: 480px;
+	border-radius: 30px;
+	border: 2px solid white;
+	float:left;
+	padding:10px 60px;
+}
+.more li{
+	color: white;
+	font-size: 20px;
+}
+/*解决方案结束*/
+/*最新资讯开始*/
+.zuixinzixun{
+	height:1015px;
+	width:100%;
+}
+.zixun{
+	height:80px;
+	width: 100%;
+	text-align:center;
+	margin-top:60px;
+	margin-bottom:47px;
+}
+.zixun1{
+	font-size: 34px;
+	margin-bottom: 20px;
+}
+.zixun2{
+	font-size: 20px;
+}
+.word{
+	height:300px;
+	width:1130px;
+	margin: 0 auto;
+	margin-bottom: 80px;
+}
+.word1{
+	float: left;
+	margin-right: 70px;
+}
+.word2{
+	width: 540px;
+	height: 290px;
+	float:left;
+}
+.jiaoyi{
+	font-size: 22px;
+	margin-left: 25px;
+}
+.tran{
+	font-size: 18px;
+	margin-left: 25px;
+	margin-bottom: 35px;
+	margin-top: 20px;
+}
+.duan{
+	width:505px;
+	height:80px;
+	font-size: 14px;
+	color:#969696;
+	line-height: 30px;
+	margin-left: 25px;
+}
+.liaojie{
+	border-radius: 22px;
+	border: 1px solid #1141a3;
+	margin-top: 30px;
+	width:70px;
+	padding:10px 40px 10px 40px;
+	margin-left: 20px;
+}
+.liaojie li{
+	color:#1141a3;
+}
+.why{
+	height:260px;
+	width:1070px;
+	margin-top: 80px;
+	margin:0 auto;
+}
+.why1{
+	width: 510px;
+	float: left;
+}
+.why1 ul li{
+	font-size: 14px;
+	color: #797979;
+	border-bottom: 1px dashed #dcdcdc;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+.why1 ul li:last-child{
+	border:none;
+}
+.why2{
+	width: 510px;
+	float: left;
+	margin-left: 45px;
+}
+.why2 ul li{
+	font-size: 14px;
+	color: #797979;
+	border-bottom: 1px dashed #dcdcdc;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+.why2 ul li:last-child{
+	border:none;
+}
+.gray{
+	width: 100%;
+	height: 105px;
+	background-color: #f5f5f5;
+/*	float:left;
+	margin :0 auto;*/
+	margin-top: 145px;
+}
+.gray1{
+	width: 1200px;
+	height:105px;
+	margin: 0 auto;
+	background-color:#f5f5f5;
+	margin-top:145px;
+}
+.naav li{
+	background:url(../img/line.png) no-repeat right center;
+	float:left;
+	width: 255px;
+	margin-top: 25px;
+
+}
+.naav img{
+	float:left;
+	margin-right: 15px;
+}
+.p1{
+	font-size: 19px;
+	margin-top: 5px;
+	/*margin-left:15px;*/
+}
+.p2{
+	font-size: 13px;
+	margin-top: 10px;
+	/*margin-left: 15px;*/
+}
+.l2{
+	margin-left: 50px;
+}
+.naav li:last-child{
+	background: none;
+}
+/*最新资讯结束*/
+/*底部开始*/
+.bottom{
+	width: 100%;
+	height: 390px;
+	background-color: #323232;
+}
+.bottom1{
+	height: 260px;
+	width: 100%;
+	border-bottom:1px solid #777777;
+}
+.list{
+	width: 720px;
+	height:155px;
+	margin-left:180px;
+	float: left;
+}
+.li{
+	width: 80px;
+	height: 155px;
+	float: left;
+	margin-right: 100px
+}
+.tou{
+	float: left;
+	color: #f5f5f5;
+	font-size: 18px;
+	margin-top: 70px;
+}
+.biao{
+	float: left;
+	color:#f5f5f5;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.biao li{
+	margin-top: 20px;
+}
+.erwei{
+	margin-top: 66px;
+	float:left;
+	background: url(../img/ll.png) no-repeat right center;
+}
+.erwei img{
+	margin-right: 30px;
+	float: left;
+}
+.lie{
+	float: left;
+	margin-right: 20px;
+}
+.lie p{
+	color: #f5f5f5;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.rexian{
+	width: 215px;
+	height:155px;
+	margin-left: 40px;
+	float: left;
+}
+.ring{
+	font-size: 18px;
+	color: #f5f5f5;
+	margin-top: 85px;
+}
+.qq{
+	color: #f5f5f5;
+	margin-top: 20px;
+}
+.qq img{
+	margin-right: 15px;
+}
+.navv{
+	width: 750px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+.navv li{
+	float: left;
+	height: 30px;
+	background: url(../img/sl.png) no-repeat right center;
+	padding: 0 10px;
+	font-size: 14px;
+	color: #f5f5f5;
+	line-height: 30px;
+}
+.navv li:last-child{
+	background: none;
+}
+.final2{
+	width: 280px;
+	height: 25px;
+	margin: 0 auto;
+	color: #f5f5f5;
+	font-size: 14px;
+	margin-top: 20px;
+}
+/*底部结束*/
